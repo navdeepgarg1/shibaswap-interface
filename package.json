@@ -1,17 +1,14 @@
 {
-  "name": "@shibaswap-interface/sdk",
+  "name": "@shibaswap/sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "🛠 An SDK for building applications on top of Shibaswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/navdeepgarg1/shibaswap-interface.git"
-  },
+  "repository": "https://github.com/shibaswap/shibaswap-sdk",
   "keywords": [
     "uniswap",
     "sushiswap",
@@ -60,10 +57,5 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  },
-  "bugs": {
-    "url": "https://github.com/navdeepgarg1/shibaswap-interface/issues"
-  },
-  "homepage": "https://github.com/navdeepgarg1/shibaswap-interface#readme",
-  "author": "Shibarium"
+  }
 }
